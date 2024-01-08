@@ -10,6 +10,22 @@ nav{
     background-color: #007FBF;
     padding: 1rem 2rem;
     color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav input{
+    background-color: #154D69;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+nav input:focus{
+    outline: none;
 }
 
 h2{
@@ -56,7 +72,10 @@ li{
     justify-content: center;
     padding: 0;
     background-color: #f6f6f6;
+}
 
+.mark:hover{
+    cursor: pointer;
 }
 
 .mark div{
@@ -72,4 +91,22 @@ li{
 
 .done li button div{
     background-color: #007FBF;
+}
+
+.add-task{
+    background-color: #007FBF;
+    padding: 0.5rem;
+    border-radius: 100%;
+    border: 0;
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    cursor: pointer;
+}
+
+.add-task img{
+    height: 1.5rem;
+    width: 1.5rem;
 }
